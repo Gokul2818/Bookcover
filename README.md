@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date: 28/04/2025
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,9 +31,88 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Book Cover</title>
+        <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Georgia', serif;
+        }
+        .book-cover {
+            width: 400px;
+            height: 600px;
+            background: url(https://images.pexels.com/photos/1576939/pexels-photo-1576939.jpeg?cs=srgb&dl=pexels-sulimansallehi-1576939.jpg&fm=jpg);
+            border: 2px solid #333;
+            padding: 40px 30px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            line-height: 1.3;
+        }
+        .subtitle {
+            color: white;
+            font-size: 16px;
+            margin-top: 10px;
+            text-align: center;
+            font-style: italic;
+        }
+        .image {
+            flex: 1;
+            background: url(https://images.pexels.com/photos/1576939/pexels-photo-1576939.jpeg?cs=srgb&dl=pexels-sulimansallehi-1576939.jpg&fm=jpg) center/contain no-repeat;
+            margin: 30px 0;
+        }
 
+        .author {
+            font-size: 18px;
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+        }
+        .line {
+            height: 2px;
+            background: white;
+            width: 50px;
+            margin: 10px auto;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="book-cover">
+            <div>
+                <div class="title">ADVENTURE STORIES</div>
+                    <div class="line"></div>
+                        <div class="subtitle">The Adventure of Life</div>
+                    </div>
+                    <div class="image">
+                        <img src="" length="10%" width="100%">
+                    </div>
+                    <div class="author">By CHANDRAPRIYADHARSHINI C</div>
+            </div>
+</body>
+</html>
+  
+```
 
 ## OUTPUT:
+![Screenshot 2025-04-28 110658](https://github.com/user-attachments/assets/2ad2405b-fc3f-4401-86c2-a2e6c7d6e16e)
+
 
 
 ## RESULT:
